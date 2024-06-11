@@ -60,7 +60,7 @@ pipeline {
                 script {
                     def token = "squ_9999bb1b9c5c9785e3d54af7af20645851dee53d"
                     def sonarQubeUrl = "http://3.101.143.247:9000/api"
-                    def componentKey = "com.codeddecode:foodcatalogue"
+                    def componentKey = "com.codedecode:foodcatalogue"
                     def coverageThreshold = 0.0
 
                     def response = sh(
